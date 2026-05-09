@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #24292e;
+    color: white;
+    padding: 2rem 0;
+}
+
+.grid-tareas {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+
+.tarjeta {
+    background-color: #007bff;
+    color: white;
+    padding: 20px 40px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: transform 0.2s;
+}
+
+.tarjeta:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+footer {
+    margin-top: 50px;
+    font-size: 0.9rem;
+    color: #666;
+}
