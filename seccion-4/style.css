@@ -1,0 +1,31 @@
+
+.footer { 
+    background: white; 
+    padding: 50px 10%; 
+}
+
+.footer-grid { 
+    display: grid; 
+    grid-template-columns: repeat(5, 1fr); 
+    gap: 30px; 
+}
+
+.footer-col h4 { 
+    color: var(--text-dark);
+    margin-bottom: 25px; 
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.footer-col a, .footer-col p { 
+    display: block; 
+    text-decoration: none; 
+    color: var(--text-gray); 
+    margin-bottom: 12px; 
+    font-size: 14px; 
+    font-weight: 600;
+}
+
+.footer-col p {
+    line-height: 1.5;
+}
